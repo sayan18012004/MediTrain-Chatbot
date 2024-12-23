@@ -16,7 +16,7 @@ MediTrain is an AI-powered medical assistant designed to provide users with accu
 To run MediTrain locally, ensure you have the following:
 
 * Python 3.8+
-* A valid Groq API key
+* A valid Groq API key in the `.env` file
 * Libraries specified in `requirements.txt`
 
 ## Installation
@@ -25,7 +25,6 @@ To run MediTrain locally, ensure you have the following:
    ```bash
    git clone https://github.com/sayan18012004/MediTrain-Chatbot.git
    cd MediTrain-Chatbot
-   cd backend
    ```
 2. Create a virtual environment and activate it:
    ```bash
