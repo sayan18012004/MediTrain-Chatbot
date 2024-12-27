@@ -1,6 +1,6 @@
 import streamlit as st
-from .chat import initialize_chat_history, append_to_chat_history
-from .model import get_response
+from backend.chat import initialize_chat_history, append_to_chat_history
+from backend.model import get_response
 
 st.set_page_config(page_title="MediTrain - Medical Chatbot", page_icon="💊", layout="wide")
 
